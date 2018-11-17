@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		077744EB21A051D8000A6FA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077744EA21A051D8000A6FA5 /* AppDelegate.m */; };
-		077744EE21A051D8000A6FA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077744ED21A051D8000A6FA5 /* ViewController.m */; };
-		077744F121A051D8000A6FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077744EF21A051D8000A6FA5 /* Main.storyboard */; };
 		077744F321A051D9000A6FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077744F221A051D9000A6FA5 /* Assets.xcassets */; };
 		077744F621A051D9000A6FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077744F421A051D9000A6FA5 /* LaunchScreen.storyboard */; };
 		077744F921A051DA000A6FA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077744F821A051DA000A6FA5 /* main.m */; };
 		0777450321A051DA000A6FA5 /* JXRaceLampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777450221A051DA000A6FA5 /* JXRaceLampTests.m */; };
 		0777450E21A051DA000A6FA5 /* JXRaceLampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777450D21A051DA000A6FA5 /* JXRaceLampUITests.m */; };
+		0777451F21A0533A000A6FA5 /* ExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777451D21A0533A000A6FA5 /* ExampleVC.m */; };
+		0777452221A053C1000A6FA5 /* JXRaceLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777452121A053C1000A6FA5 /* JXRaceLampView.m */; };
+		0777452521A05BF3000A6FA5 /* JXRaceLampCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777452421A05BF3000A6FA5 /* JXRaceLampCell.m */; };
+		0777452821A06C4D000A6FA5 /* JXRaceLampModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777452721A06C4C000A6FA5 /* JXRaceLampModel.m */; };
+		0777452E21A06D55000A6FA5 /* UIColor+JXExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777452A21A06D55000A6FA5 /* UIColor+JXExtend.m */; };
+		0777452F21A06D55000A6FA5 /* JXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0777452B21A06D55000A6FA5 /* JXUtilities.m */; };
+		E0027523A660B0FF61234E90 /* libPods-JXRaceLampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8BE1FB3107C8E22DF7EA3C /* libPods-JXRaceLampTests.a */; };
+		E65DA337F01FA18BF617F5F2 /* libPods-JXRaceLampUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73225FC2CF9E81120A129AB9 /* libPods-JXRaceLampUITests.a */; };
+		F8A66117975DA182FDA2FB76 /* libPods-JXRaceLamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4842A07CD89DAD5523B65BD /* libPods-JXRaceLamp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +45,6 @@
 		077744E621A051D8000A6FA5 /* JXRaceLamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXRaceLamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077744E921A051D8000A6FA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		077744EA21A051D8000A6FA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		077744EC21A051D8000A6FA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		077744ED21A051D8000A6FA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		077744F021A051D8000A6FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		077744F221A051D9000A6FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077744F521A051D9000A6FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		077744F721A051DA000A6FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,27 @@
 		0777450921A051DA000A6FA5 /* JXRaceLampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXRaceLampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0777450D21A051DA000A6FA5 /* JXRaceLampUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRaceLampUITests.m; sourceTree = "<group>"; };
 		0777450F21A051DA000A6FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0777451C21A0533A000A6FA5 /* ExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleVC.h; sourceTree = "<group>"; };
+		0777451D21A0533A000A6FA5 /* ExampleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleVC.m; sourceTree = "<group>"; };
+		0777452021A053C1000A6FA5 /* JXRaceLampView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXRaceLampView.h; sourceTree = "<group>"; };
+		0777452121A053C1000A6FA5 /* JXRaceLampView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRaceLampView.m; sourceTree = "<group>"; };
+		0777452321A05BF3000A6FA5 /* JXRaceLampCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXRaceLampCell.h; sourceTree = "<group>"; };
+		0777452421A05BF3000A6FA5 /* JXRaceLampCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRaceLampCell.m; sourceTree = "<group>"; };
+		0777452621A06C4C000A6FA5 /* JXRaceLampModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXRaceLampModel.h; sourceTree = "<group>"; };
+		0777452721A06C4C000A6FA5 /* JXRaceLampModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRaceLampModel.m; sourceTree = "<group>"; };
+		0777452A21A06D55000A6FA5 /* UIColor+JXExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JXExtend.m"; sourceTree = "<group>"; };
+		0777452B21A06D55000A6FA5 /* JXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXUtilities.m; sourceTree = "<group>"; };
+		0777452C21A06D55000A6FA5 /* UIColor+JXExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JXExtend.h"; sourceTree = "<group>"; };
+		0777452D21A06D55000A6FA5 /* JXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXUtilities.h; sourceTree = "<group>"; };
+		0FF0444C0408AD2AD6D53C55 /* Pods-JXRaceLamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLamp/Pods-JXRaceLamp.debug.xcconfig"; sourceTree = "<group>"; };
+		3245BCEAAD6A394AD2162872 /* Pods-JXRaceLampUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLampUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLampUITests/Pods-JXRaceLampUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51E18FB91382155468DC1678 /* Pods-JXRaceLampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLampTests/Pods-JXRaceLampTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55A49AD3400720E8F28FB242 /* Pods-JXRaceLampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLampTests/Pods-JXRaceLampTests.release.xcconfig"; sourceTree = "<group>"; };
+		73225FC2CF9E81120A129AB9 /* libPods-JXRaceLampUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXRaceLampUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773CA5173BEADA2F335E57A0 /* Pods-JXRaceLamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLamp/Pods-JXRaceLamp.release.xcconfig"; sourceTree = "<group>"; };
+		7B8BE1FB3107C8E22DF7EA3C /* libPods-JXRaceLampTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXRaceLampTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96757A94E0FB7470AC750899 /* Pods-JXRaceLampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXRaceLampUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXRaceLampUITests/Pods-JXRaceLampUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4842A07CD89DAD5523B65BD /* libPods-JXRaceLamp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXRaceLamp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A66117975DA182FDA2FB76 /* libPods-JXRaceLamp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0027523A660B0FF61234E90 /* libPods-JXRaceLampTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65DA337F01FA18BF617F5F2 /* libPods-JXRaceLampUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				0777450121A051DA000A6FA5 /* JXRaceLampTests */,
 				0777450C21A051DA000A6FA5 /* JXRaceLampUITests */,
 				077744E721A051D8000A6FA5 /* Products */,
+				87E0D70A5A3E2DAF6AF734DF /* Pods */,
+				287DBB22E38D5C7ED10D3122 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +131,11 @@
 		077744E821A051D8000A6FA5 /* JXRaceLamp */ = {
 			isa = PBXGroup;
 			children = (
+				0777451E21A0533A000A6FA5 /* JXRaceLampView */,
+				0777452921A06D55000A6FA5 /* JXTool */,
+				0777451B21A0533A000A6FA5 /* Example */,
 				077744E921A051D8000A6FA5 /* AppDelegate.h */,
 				077744EA21A051D8000A6FA5 /* AppDelegate.m */,
-				077744EC21A051D8000A6FA5 /* ViewController.h */,
-				077744ED21A051D8000A6FA5 /* ViewController.m */,
-				077744EF21A051D8000A6FA5 /* Main.storyboard */,
 				077744F221A051D9000A6FA5 /* Assets.xcassets */,
 				077744F421A051D9000A6FA5 /* LaunchScreen.storyboard */,
 				077744F721A051DA000A6FA5 /* Info.plist */,
@@ -132,6 +162,62 @@
 			path = JXRaceLampUITests;
 			sourceTree = "<group>";
 		};
+		0777451B21A0533A000A6FA5 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				0777451C21A0533A000A6FA5 /* ExampleVC.h */,
+				0777451D21A0533A000A6FA5 /* ExampleVC.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		0777451E21A0533A000A6FA5 /* JXRaceLampView */ = {
+			isa = PBXGroup;
+			children = (
+				0777452021A053C1000A6FA5 /* JXRaceLampView.h */,
+				0777452121A053C1000A6FA5 /* JXRaceLampView.m */,
+				0777452321A05BF3000A6FA5 /* JXRaceLampCell.h */,
+				0777452421A05BF3000A6FA5 /* JXRaceLampCell.m */,
+				0777452621A06C4C000A6FA5 /* JXRaceLampModel.h */,
+				0777452721A06C4C000A6FA5 /* JXRaceLampModel.m */,
+			);
+			path = JXRaceLampView;
+			sourceTree = "<group>";
+		};
+		0777452921A06D55000A6FA5 /* JXTool */ = {
+			isa = PBXGroup;
+			children = (
+				0777452A21A06D55000A6FA5 /* UIColor+JXExtend.m */,
+				0777452C21A06D55000A6FA5 /* UIColor+JXExtend.h */,
+				0777452D21A06D55000A6FA5 /* JXUtilities.h */,
+				0777452B21A06D55000A6FA5 /* JXUtilities.m */,
+			);
+			path = JXTool;
+			sourceTree = "<group>";
+		};
+		287DBB22E38D5C7ED10D3122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4842A07CD89DAD5523B65BD /* libPods-JXRaceLamp.a */,
+				7B8BE1FB3107C8E22DF7EA3C /* libPods-JXRaceLampTests.a */,
+				73225FC2CF9E81120A129AB9 /* libPods-JXRaceLampUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E0D70A5A3E2DAF6AF734DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF0444C0408AD2AD6D53C55 /* Pods-JXRaceLamp.debug.xcconfig */,
+				773CA5173BEADA2F335E57A0 /* Pods-JXRaceLamp.release.xcconfig */,
+				51E18FB91382155468DC1678 /* Pods-JXRaceLampTests.debug.xcconfig */,
+				55A49AD3400720E8F28FB242 /* Pods-JXRaceLampTests.release.xcconfig */,
+				96757A94E0FB7470AC750899 /* Pods-JXRaceLampUITests.debug.xcconfig */,
+				3245BCEAAD6A394AD2162872 /* Pods-JXRaceLampUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0777451221A051DA000A6FA5 /* Build configuration list for PBXNativeTarget "JXRaceLamp" */;
 			buildPhases = (
+				99C8C8F872DFDF627CB25081 /* [CP] Check Pods Manifest.lock */,
 				077744E221A051D8000A6FA5 /* Sources */,
 				077744E321A051D8000A6FA5 /* Frameworks */,
 				077744E421A051D8000A6FA5 /* Resources */,
@@ -156,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0777451521A051DA000A6FA5 /* Build configuration list for PBXNativeTarget "JXRaceLampTests" */;
 			buildPhases = (
+				D97DB7DAC8FF7C3DB134996C /* [CP] Check Pods Manifest.lock */,
 				077744FA21A051DA000A6FA5 /* Sources */,
 				077744FB21A051DA000A6FA5 /* Frameworks */,
 				077744FC21A051DA000A6FA5 /* Resources */,
@@ -174,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0777451821A051DA000A6FA5 /* Build configuration list for PBXNativeTarget "JXRaceLampUITests" */;
 			buildPhases = (
+				869DC6F4B49A2C536BEE2C17 /* [CP] Check Pods Manifest.lock */,
 				0777450521A051DA000A6FA5 /* Sources */,
 				0777450621A051DA000A6FA5 /* Frameworks */,
 				0777450721A051DA000A6FA5 /* Resources */,
@@ -237,7 +326,6 @@
 			files = (
 				077744F621A051D9000A6FA5 /* LaunchScreen.storyboard in Resources */,
 				077744F321A051D9000A6FA5 /* Assets.xcassets in Resources */,
-				077744F121A051D8000A6FA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +345,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		869DC6F4B49A2C536BEE2C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXRaceLampUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C8C8F872DFDF627CB25081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXRaceLamp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97DB7DAC8FF7C3DB134996C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXRaceLampTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		077744E221A051D8000A6FA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077744EE21A051D8000A6FA5 /* ViewController.m in Sources */,
 				077744F921A051DA000A6FA5 /* main.m in Sources */,
 				077744EB21A051D8000A6FA5 /* AppDelegate.m in Sources */,
+				0777452221A053C1000A6FA5 /* JXRaceLampView.m in Sources */,
+				0777452521A05BF3000A6FA5 /* JXRaceLampCell.m in Sources */,
+				0777452821A06C4D000A6FA5 /* JXRaceLampModel.m in Sources */,
+				0777451F21A0533A000A6FA5 /* ExampleVC.m in Sources */,
+				0777452F21A06D55000A6FA5 /* JXUtilities.m in Sources */,
+				0777452E21A06D55000A6FA5 /* UIColor+JXExtend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +450,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		077744EF21A051D8000A6FA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				077744F021A051D8000A6FA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		077744F421A051D9000A6FA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,6 +573,7 @@
 		};
 		0777451321A051DA000A6FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF0444C0408AD2AD6D53C55 /* Pods-JXRaceLamp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +590,7 @@
 		};
 		0777451421A051DA000A6FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773CA5173BEADA2F335E57A0 /* Pods-JXRaceLamp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +607,7 @@
 		};
 		0777451621A051DA000A6FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E18FB91382155468DC1678 /* Pods-JXRaceLampTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +626,7 @@
 		};
 		0777451721A051DA000A6FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A49AD3400720E8F28FB242 /* Pods-JXRaceLampTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +645,7 @@
 		};
 		0777451921A051DA000A6FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96757A94E0FB7470AC750899 /* Pods-JXRaceLampUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXRaceLampUITests/Info.plist;
@@ -516,6 +663,7 @@
 		};
 		0777451A21A051DA000A6FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3245BCEAAD6A394AD2162872 /* Pods-JXRaceLampUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXRaceLampUITests/Info.plist;
